@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+        <dict>
+            <key>Name</key>
+            <string>Cloudflare DNS over TLS</string>
+            <key>PayloadDescription</key>
+            <string>Configures device to use Cloudflare Encrypted DNS over TLS</string>
+            <key>PayloadDisplayName</key>
+            <string>Cloudflare DNS</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.F7236D82-C2EB-429F-8AEB-306B942CA3FC</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>59B869E4-3ED7-474A-AEF6-E548C1C7D29B</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>TLS</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>8.8.4.4</string>
+                </array>
+                <key>ServerName</key>
+                <string>8.8.4.4</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>shireyishunjian.com</string>
+                    <string>shishirere.com</string>
+                    <string>woniaokuzile.com</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
+	<key>PayloadDescription</key>
+	<string>使用安全 DNS 来访问 shireyishunjian.com</string>
+	<key>PayloadDisplayName</key>
+	<string>Wetty DNS</string>
+	<key>PayloadIdentifier</key>
+    <string>r.macOSBeta.11AC2558-4C95-41C4-BD16-813C9119DA44</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E69B393C-4CD1-4209-A15A-70CB2FC4EFC7</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
